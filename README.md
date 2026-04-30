@@ -308,10 +308,10 @@ laundry-app/
 │   ├── nginx.conf
 │   └── package.json
 ├── assets
-    ├── login.png
-    ├── dashboard.png
-    |── chart.png
-    └── orders.png
+│   ├── login.png
+│    ├── dashboard.png
+│    |── chart.png
+│    └── orders.png
 ├── LaundryPro_Postman_Collection.json
 ├── docker-compose.yml
 └── README.md

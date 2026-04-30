@@ -70,7 +70,7 @@ App runs at: `http://localhost:3000`
   <tr>
     <td align="center">
       <b>Dashboard</b><br>
-      <img src="./assets/dashboard.png" width="300"/>
+      <img src="./assets/dashboards.png" width="300"/>
     </td>
     <td align="center">
       <b>Orders Page</b><br>
@@ -310,6 +310,7 @@ laundry-app/
 ├── assets
     ├── login.png
     ├── dashboard.png
+    |── chart.png
     └── orders.png
 ├── LaundryPro_Postman_Collection.json
 ├── docker-compose.yml

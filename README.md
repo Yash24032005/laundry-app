@@ -63,6 +63,34 @@ App runs at: `http://localhost:3000`
 
 ---
 
+### 🎥 Demo / Screenshots
+<h2>🎥 Demo / Screenshots</h2>
+
+<table>
+  <tr>
+    <td align="center">
+      <b>Dashboard</b><br>
+      <img src="./assets/dashboard.png" width="300"/>
+    </td>
+    <td align="center">
+      <b>Orders Page</b><br>
+      <img src="./assets/orders.png" width="300"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <b>Login Page</b><br>
+      <img src="./assets/login.png" width="300"/>
+    </td>
+    <td align="center">
+      <b>Revenue Chart</b><br>
+      <img src="./assets/chart.png" width="300"/>
+    </td>
+  </tr>
+</table>
+
+
 ### 🐳 Docker (Recommended for deployment)
 ```bash
 # From project root
@@ -279,6 +307,10 @@ laundry-app/
 │   ├── Dockerfile
 │   ├── nginx.conf
 │   └── package.json
+├── assets
+    ├── login.png
+    ├── dashboard.png
+    └── orders.png
 ├── LaundryPro_Postman_Collection.json
 ├── docker-compose.yml
 └── README.md

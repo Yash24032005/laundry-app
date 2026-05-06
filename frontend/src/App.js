@@ -8,7 +8,7 @@ import Dashboard from './pages/Dashboard';
 import Orders from './pages/Orders';
 import CreateOrder from './pages/CreateOrder';
 import OrderDetail from './pages/OrderDetail';
-import api from './api'; 
+import api from './utils/api';
 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();

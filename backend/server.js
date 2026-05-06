@@ -65,15 +65,22 @@ dotenv.config();
 const app = express();
 
 // Middleware
+// app.use(cors({
+//   // Aapka Vercel URL aur local development dono allow honge
+//   origin: [
+//     "https://laundry-app-eosin.vercel.app", 
+//     "http://localhost:3000"
+//   ],
+//   credentials: true,
+//   methods: ["GET", "POST", "PUT", "DELETE"],
+//   allowedHeaders: ["Content-Type", "Authorization"]
+// }));
+// backend/server.js mein CORS section ko isse replace karein
 app.use(cors({
-  // Aapka Vercel URL aur local development dono allow honge
-  origin: [
-    "https://laundry-app-eosin.vercel.app", 
-    "http://localhost:3000"
-  ],
-  credentials: true,
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  allowedHeaders: ["Content-Type", "Authorization"]
+    origin: true, // Yeh dynamic origin allow karega
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"]
 }));
 
 app.use(express.json());
